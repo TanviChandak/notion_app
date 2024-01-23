@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/notion_app/router-project-starter/static/css/main.a0e6f25f.css",
+    "main.js": "/notion_app/router-project-starter/static/js/main.7ecd168a.js",
+    "static/media/aboutus55.webp": "/notion_app/router-project-starter/static/media/aboutus55.d82a4333b251c315cbb0.webp",
+    "static/media/roboCode.png": "/notion_app/router-project-starter/static/media/roboCode.eba46c6052d928b2b106.png",
+    "static/media/signup.webp": "/notion_app/router-project-starter/static/media/signup.070da4b9d717f0d05a27.webp",
+    "static/media/frame.png": "/notion_app/router-project-starter/static/media/frame.3a238e5f26d676376e1d.png",
+    "static/media/login.webp": "/notion_app/router-project-starter/static/media/login.dbd4aaf3309aa3b67024.webp",
+    "static/media/bannermid.avif": "/notion_app/router-project-starter/static/media/bannermid.d6b552cd692f5e93d78d.avif",
+    "static/media/banner.jpeg": "/notion_app/router-project-starter/static/media/banner.7c40ff02a0d9eb90f930.jpeg",
+    "static/media/googleIcon.png": "/notion_app/router-project-starter/static/media/googleIcon.960c670a7a8d952eba35.png",
+    "static/media/Logo.svg": "/notion_app/router-project-starter/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
+    "index.html": "/notion_app/router-project-starter/index.html",
+    "main.a0e6f25f.css.map": "/notion_app/router-project-starter/static/css/main.a0e6f25f.css.map",
+    "main.7ecd168a.js.map": "/notion_app/router-project-starter/static/js/main.7ecd168a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0e6f25f.css",
+    "static/js/main.7ecd168a.js"
+  ]
+}
