@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/notion_app/static/css/main.44d568e3.css",
-    "main.js": "/notion_app/static/js/main.8274aa8e.js",
+    "main.js": "/notion_app/static/js/main.d839fd4a.js",
     "static/media/aboutus55.webp": "/notion_app/static/media/aboutus55.d82a4333b251c315cbb0.webp",
     "static/media/roboCode.png": "/notion_app/static/media/roboCode.eba46c6052d928b2b106.png",
     "static/media/signup.webp": "/notion_app/static/media/signup.070da4b9d717f0d05a27.webp",
@@ -13,10 +13,10 @@
     "static/media/Logo.svg": "/notion_app/static/media/Logo.fd896773ef070a122541fd8722efa10f.svg",
     "index.html": "/notion_app/index.html",
     "main.44d568e3.css.map": "/notion_app/static/css/main.44d568e3.css.map",
-    "main.8274aa8e.js.map": "/notion_app/static/js/main.8274aa8e.js.map"
+    "main.d839fd4a.js.map": "/notion_app/static/js/main.d839fd4a.js.map"
   },
   "entrypoints": [
     "static/css/main.44d568e3.css",
-    "static/js/main.8274aa8e.js"
+    "static/js/main.d839fd4a.js"
   ]
 }
