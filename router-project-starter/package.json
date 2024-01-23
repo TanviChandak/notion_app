@@ -1,6 +1,6 @@
 {
   "name": "router-project",
-  "homepage": "https://tanvichandak.github.io/notion_app/router-project-starter",
+  "homepage": "https://tanvichandak.github.io/notion_app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -41,8 +41,7 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.2.7",
-    "gh-pages": "^6.1.1"
-       
+    "gh-pages": "^6.1.1",
+    "tailwindcss": "^3.2.7"
   }
 }
