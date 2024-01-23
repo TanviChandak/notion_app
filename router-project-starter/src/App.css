@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+}
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+    text-emphasis-color:yellow ;
+}
+.card{
+    text-emphasis-color:yellow ;
+
+}
