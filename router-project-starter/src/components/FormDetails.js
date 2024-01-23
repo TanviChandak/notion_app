@@ -14,14 +14,17 @@ export const FormDetails = (props) => {
           <p className="mb-4 text-blue-300">{data.description2}</p>
 
           <FormFields data={data.formFields} />
+          <form >
 
           <div className="flex justify-center mt-5" >
-            <button className="bg-yellow-400 text-black py-2 px-4 rounded mr-2 hover:text-white">{data.btnName}</button>
+            <button type="submit" className="bg-yellow-400 text-black py-2 px-4 rounded mr-2 hover:text-white">{data.btnName}</button>
             <button className="bg-black text-white py-2 px-4 rounded mr-2 flex items-center hover:text-yellow-400">
                 <img src={google} alt="Image" className="w-6 h-6 mr-2" />
                 {data.btnName2}
             </button>
             </div>
+            </form>
+
 
         </div>
         <div className="text-xl text-center ">

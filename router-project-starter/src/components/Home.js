@@ -5,42 +5,42 @@ import React, { useState } from 'react';
 import banner3 from "../assets/roboCode.png";
 
 export const Home = () => {
-  const hardcodedValues = [
-    'Apple', 'Banana', 'Cherry', 'Date', 'Elderberry', 'Fig',
-    'Grape', 'Honeydew', 'Kiwi', 'Lemon', 'Mango', 'Orange',
-    'Papaya', 'Quince', 'Raspberry', 'Strawberry', 'Tomato',
-    'Uva', 'Watermelon', 'Xigua', 'Yellow passion fruit', 'Zucchini',
-    // Add more values as needed
-  ];
+  // const hardcodedValues = [
+  //   'Apple', 'Banana', 'Cherry', 'Date', 'Elderberry', 'Fig',
+  //   'Grape', 'Honeydew', 'Kiwi', 'Lemon', 'Mango', 'Orange',
+  //   'Papaya', 'Quince', 'Raspberry', 'Strawberry', 'Tomato',
+  //   'Uva', 'Watermelon', 'Xigua', 'Yellow passion fruit', 'Zucchini',
+  //   // Add more values as needed
+  // ];
   
-    const [searchTerm, setSearchTerm] = useState('');
-    const [searchResults, setSearchResults] = useState([]);
+    // const [searchTerm, setSearchTerm] = useState('');
+    // const [searchResults, setSearchResults] = useState([]);
   
-    const handleSearch = () => {
-      const filteredResults = hardcodedValues
-        .filter(value =>
-          value.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-        .slice(0, 4); // Limit to the top 4 suggestions
-      setSearchResults(filteredResults);
-    };
+    // const handleSearch = () => {
+    //   const filteredResults = hardcodedValues
+    //     .filter(value =>
+    //       value.toLowerCase().includes(searchTerm.toLowerCase())
+    //     )
+    //     .slice(0, 4); // Limit to the top 4 suggestions
+    //   setSearchResults(filteredResults);
+    // };
   
-    const handleInputChange = (value) => {
-      setSearchTerm(value);
-      handleSearch();
-    };
+    // const handleInputChange = (value) => {
+    //   setSearchTerm(value);
+    //   handleSearch();
+    // };
   return (
     <div className="container mx-auto p-8 pt-[130px]">
       
-      <input
+      {/* <input
         type="text"
 
         placeholder="Search..."
         className="border p-2 mr-2 text-cyan-300"
         value={searchTerm}
         onChange={(e) => handleInputChange(e.target.value)}
-      />
-      <div className="ml-4">
+      /> */}
+      {/* <div className="ml-4">
         {searchResults.length > 0 && (
           <ul className="border p-2 bg-white rounded text-cyan-300">
             {searchResults.map((result, index) => (
@@ -48,7 +48,7 @@ export const Home = () => {
             ))}
           </ul>
         )}
-      </div>
+      </div> */}
       <h1 className="text-3xl font-bold mb-6">Welcome to Our Coding Website</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
