@@ -16,8 +16,9 @@ function App() {
       <div className="bg-gray-900 h-[1000px] text-white ">
         {/* Routes */}
       <Routes>
-        <Route path="/" element={<Home></Home>}>
+        <Route path="/" element={<MainHeader></MainHeader>}>
             <Route index element={<Home />} />
+            <Route path="/notion_app" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />

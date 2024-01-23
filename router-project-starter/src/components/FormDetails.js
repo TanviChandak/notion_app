@@ -28,7 +28,7 @@ export const FormDetails = (props) => {
 
         </div>
         <div className="text-xl text-center ">
-          <img className="mt-4 h-[450px] w-full object-cover" src={data.imgName} alt="Login" />
+          <img className="mt-4 h-[450px] w-full object-cover hidden md:block lg:block" src={data.imgName} alt="Login" />
         </div>
       </div>
     </div>

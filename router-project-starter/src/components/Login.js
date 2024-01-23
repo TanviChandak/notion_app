@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormDetails } from './FormDetails';
 import loginImg from "../assets/login.webp";
-import { FormFields } from './FormFields';
+import mobileLoginImg from "../assets/frame.png";
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
